@@ -38,9 +38,9 @@ Dans cette partie on a passé à l'automatisation en 2 étapes :
 
 **Naturel Language Processing** c'est une boîte à outils basée sur l'apprentissage automatique pour le traitement du texte en langage naturel
 
-## Expression régulaire :
+## Expressions régulaires :
 
-la recherche des magistrats à basée essentiellement sur les expressions régulaires 
+la recherche des magistrats a basée essentiellement sur les expressions régulaires 
 
 ## Languages et Outils utilisés :
 
