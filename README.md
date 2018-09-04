@@ -14,6 +14,24 @@ Dans cette partie on a chercher manuellement des magistrats (4), on a étudié l
 
 
 **Recherche Automatique :**
+Le travail que j ai fait manuellement maintenant je l'ai fait automatiquement ceci veut dire avec un code 
+
+
+## Language utilisés :
+ 
+- Javascript
+
+- Node.js
+
+- Request
+
+- Knex
+
+## Logiciel utilisé :
+
+- [Glitch](https://glitch.com) :flags:
+
+
 
 
 
