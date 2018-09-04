@@ -1,8 +1,8 @@
 
-##Le stage est divisé en deux partie :
+Le stage est divisé en deux partie :
   ------------------------------------
 
-#**Recherche Manuelle:**
+**Recherche Manuelle:**
 
 
-#**Recherche Automatique:**
+**Recherche Automatique:**
