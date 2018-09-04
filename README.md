@@ -36,7 +36,7 @@ Dans cette partie on a passé à l'automatisation en 2 étapes :
 
 ## OpenNlp :warning:
 
-Naturel Language Processing c'est une 
+**Naturel Language Processing** c'est une boîte à outils basée sur l'apprentissage automatique pour le traitement du texte en langage naturel
 
 
 ## Languages et Outils utilisés :
