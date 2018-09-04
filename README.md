@@ -19,7 +19,7 @@ Dans cette partie on a cherché manuellement des magistrats (4), on a étudié l
 
 
 ### **Recherche Automatique :**
-  Code Ja
+  
 
 Dans cette partie on a passé à l'automatisation en 2 étapes :
 
