@@ -30,7 +30,7 @@ Dans cette partie on a passé à l'automatisation en 2 étapes :
  
  Le but de cette étape est d'extraire du site Légifrance les articles metionnés dans la partie ci-dessus. Plusieurs technologies ont été expérimentées avant de trouver une solution viable :
  
- - Ajax : première méthode utilisée, elle permet d'effectuer des requêtes entre serveurs, mais nous avons constaté que cette technique est soumise à de fortes contraintes de sécurité pour empêcher d'exploiter les sites. Devant la difficultée de contourner cette sécurité, il a été préférable de se pencher vers une nouvelle solution.
+ - Ajax :warning: : première méthode utilisée, elle permet d'effectuer des requêtes entre serveurs, mais nous avons constaté que cette technique est soumise à de fortes contraintes de sécurité pour empêcher d'exploiter les sites. Devant la difficultée de contourner cette sécurité, il a été préférable de se pencher vers une nouvelle solution.
  
  - request / request-promise : ce sont deux librairies javascript pour effectuer des requêtes http côté serveur. La librairie request a été testée en premier mais il restait encore un problème lié au mécanisme asynchrone de javascript réglé avec le système de promesse implémenté dans le module request-promise.
  
