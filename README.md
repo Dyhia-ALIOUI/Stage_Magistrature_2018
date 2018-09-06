@@ -44,7 +44,16 @@ Dans cette partie on a passé à l'automatisation en 2 étapes :
  
  - Un deuxième scraping, le plus important, doit être effectué sur les documents téléchargés pour récupérer toutes les informations jugées pertinentes concernant à la carrière des magistrats. Deux approches sont étudiées pour extraire les informations cherchées, NLP et les expressions régulières.
 
-**Naturel Language Processing** c'est une boîte à outils basée sur l'apprentissage automatique pour le traitement du texte en langage naturel
+**Naturel Language Processing** c'est une boîte à outils basée sur l'apprentissage automatique (machine learning) pour le traitement du texte en langage naturel.
+
+La deuxième étape de scrapping n'a pas été terminée. Voici les difficultés rencontrées :
+
+- NLP : basé sur le machine learning, son efficacité dépend du modèle utilisé.
+ 1. Il faut utiliser un modèle entraîné sur des textes français pour notre procédure.
+ 2. Voir le gestionnaire de route ( /nlp ), la librairie NLP utilisée en javascript reconnaît Claude (prénom) comme un nom mais pas Mathon(nom de famille), le modèle utilisé montre ses limites.
+ 3. OpenNLP propose la fonctionalité d'entraîner son propre modèle ce que nous pourrions faire avec les documents téléchargés. C'est une piste à étudier dans le futur, pour vérifier si les résultats obtenus sont satisfaisants.
+
+- Expressions régulières : Pour la reconnaissance du nom et du prénom des magistrats, on se limite à une expression régulière du type "M. ou Mme <nom> <prenom>", elle a un défaut évident, elle est rigide. Dans un texte, on ne peut pas être sûr que les deux mots qui suivent M. ou Mme sont les noms d'un magistrat. 
 
 ## IDE utilisé :
 
