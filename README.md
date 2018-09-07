@@ -53,7 +53,15 @@ La deuxième étape de scrapping n'a pas été terminée. Voici les difficultés
  2. Voir le gestionnaire de route ( /nlp ), la librairie NLP utilisée en javascript reconnaît Claude (prénom) comme un nom mais pas Mathon(nom de famille), le modèle utilisé montre ses limites.
  3. OpenNLP propose la fonctionalité d'entraîner son propre modèle ce que nous pourrions faire avec les documents téléchargés. C'est une piste à étudier dans le futur, pour vérifier si les résultats obtenus sont satisfaisants.
 
-- Expressions régulières : Pour la reconnaissance du nom et du prénom des magistrats, on se limite à une expression régulière du type "M. ou Mme <nom> <prenom>", elle a un défaut évident, elle est rigide. Dans un texte, on ne peut pas être sûr que les deux mots qui suivent M. ou Mme sont les noms d'un magistrat. 
+- Expressions régulières : Pour la reconnaissance du nom et du prénom des magistrats, on se limite à une expression régulière du type "M. ou Mme <nom> <prenom>", elle a un défaut évident, elle est rigide. Dans un texte, on ne peut pas être sûr que les deux mots qui suivent M. ou Mme sont les noms d'un magistrat.
+ 
+ ### *Base de données* :
+ 
+ Le sgbd utilisé est SQLite3. Pour réinitialiser la base de données on utilisera le script init_bd.js, la commande pour l'exécuter est *node init_bd.js*. SQLite3 effectue le stockage de la base de données dans un fichier nommé *.data/magistrats.sqlite3*.
+ 
+ Une table *magistrats*, trois attributs : prenom, nom, sexe.
+ 
+ Le remplissage de la BD se fait avec l'extraction par RegExp. Celle-ci dure environ une heure. Elle a déjà été réalisée une première fois et on peut consulter son contenu via l'application (instantanné). On peut également la consulter à l'aide de l'interface de commande sqlite3.
 
 ## IDE utilisé :
 
